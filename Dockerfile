@@ -9,7 +9,7 @@ COPY . .
 RUN mvn package
 
 ##token config
-#ENV JWT_SECRET="2a10O0SBBEcnNJajEW0qHn2eBGxpPNzz7H7mYd89Cm80GjMfsnvO"
+#ENV JWT_SECRET=<SECRET>
 #ENV daysToTokenExpire=7
 ##data base
 #ENV typeDllAuto="update"
